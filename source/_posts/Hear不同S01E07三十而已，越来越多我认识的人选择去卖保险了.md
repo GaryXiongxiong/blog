@@ -12,6 +12,7 @@ date: 2021-01-25 18:01:49
 本期节目不讨论任何保险产品，也没有如何配置保险的攻略。
 <!--more-->
 <iframe src="https://player.fireside.fm/v2/CSKDZ64u+V9lnzHDQ?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
+
 **【本期营业人员】**
 刘轶，[@amuro0061](https://www.weibo.com/u/1730354404)
 小雄，[@Gary熊了个熊](https://www.weibo.com/u/5628876835)
