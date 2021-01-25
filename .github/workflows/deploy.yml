@@ -1,0 +1,31 @@
+name: Gary's blog deployment
+on: 
+  push:
+    branches:
+      - "master"
+jobs:
+  generate_public:
+    name: generate & deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+      - name: Setup Hexo
+        run: |
+          npm install
+      - name: Generate
+        run: |
+          hexo generate
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.BLOG_DEPLOYMENT }}
+          BRACH: master
+          FOLDER: public
+          REPOSITORY_NAME: GaryXiongxiong/Myblog
+          GIT_CONFIG_NAME: GaryXiongxiong
+          GIT_CONFIG_EMAIL: i@jiangyixiong.top
+          CLEAN: true
+
