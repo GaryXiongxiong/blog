@@ -22,7 +22,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.BLOG_DEPLOYMENT }}
-          BRACH: master
+          BRANCH: master
           FOLDER: public
           REPOSITORY_NAME: GaryXiongxiong/Myblog
           GIT_CONFIG_NAME: GaryXiongxiong
