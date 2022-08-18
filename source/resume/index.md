@@ -68,6 +68,10 @@ Consultant
 
 ## 项目经验
 
+#### 澳洲某贷款公司
+
+核心全栈工程师
+
 #### 中国联通远程业务办理-实名认证模块
 
 模块负责人
@@ -110,6 +114,8 @@ Consultant
 |技能|水平|
 |---|---|
 |Java|熟练|
+|Kotlin|熟练|
+|GoLang|了解|
 |Python|熟练|
 |Javascript|熟练|
 |TypeScript|熟练|
